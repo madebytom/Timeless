@@ -247,7 +247,7 @@ div#content {
     width: 75%;
     margin: 0 auto;
     padding: 2em 0 0 0;
-    font-family: 'Droid Sans', Helvetica, Verdana, sans-serif;
+    font-family: 'Droid Serif', Helvetica, Verdana, sans-serif;
     font-size: 2em;
     line-height: 2em;
 }
@@ -414,8 +414,8 @@ nav ul li a:hover {
 	   -moz-border-radius: 10px;
 		 -o-border-radius: 10px;
 		    border-radius: 10px;
-	width: 120px;
-	height: 10px;
+	width: 140px;
+	height: 20px;
 	color: #81BEF7;
 	border: 1px solid #ccc;
 	-webkit-transition: all 0.2s linear;
@@ -431,7 +431,7 @@ nav ul li a:hover {
 	   -moz-border-radius: 10px;
 		 -o-border-radius: 10px;
 		    border-radius: 10px;
-	width: 180px;
+	width: 220px;
 	color: #81BEF7;
 	border: 1px solid #09c;
 }
@@ -462,15 +462,26 @@ div#footer a:hover {
     color: #09c !important;
 }
 div#footer a.atom {
-    background-color: #bbb;
+    background-color: #09c;
     border: none;
-    color: #222;
-    margin: -2.5em .4em 0 0;
-    padding: .3em .6em;
-    float: right;
+    color: #fff;
+    position: relative;
+    top: -25px;
+    margin: 0 auto;
+    padding: 0.3em 0.5em;
+    -webkit-border-radius: 5px;
+     -khtml-border-radius: 5px;
+       -moz-border-radius: 5px;
+    	 -o-border-radius: 5px;
+    	    border-radius: 5px;
+    -webkit-transition: all 0.2s linear;
+       -moz-transition: all 0.2s linear;
+    	 -o-transition: all 0.2s linear;
+    		transition: all 0.2s linear;
 }
 div#footer a.atom:hover {
-    background-color: #EEA64A;
+    background: #fff;
+    color: #333 !important;
 }
 
 div.notice, div.message, div.warning, div.date {
