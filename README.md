@@ -1,6 +1,6 @@
 
 #Timeless Chyrp Theme (Archived)
-*Them no longer under active development*
+*Theme no longer under active development*
 
 **Author:**[@madebytom](http://twitter.com/madebytom)
 
